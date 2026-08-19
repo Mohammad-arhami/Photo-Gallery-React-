@@ -1,6 +1,6 @@
 import { deleteDoc, doc } from "firebase/firestore";
 import { useFirestore } from "../hooks/useFirestore"
-import { db, storage } from "../Firebase/config";
+import { db, storage } from "../firebase/config";
 import { deleteObject, ref } from "firebase/storage";
 import { useState } from "react";
 import {motion} from 'framer-motion'
